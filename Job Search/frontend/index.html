@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Search</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="scss/app.scss" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="heading">Job Search App</h1>
+        <h2 class="sub-heading">Job made for you!</h2>
+        <form id="search-form">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Title"
+            id="search"
+          />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Location"
+            id="location"
+          />
+          <button class="btn btn-primary btn-block">
+            Search
+          </button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="loading-element">
+          <img src="img/1.svg" alt="" />
+        </div>
+        <div class="result-container"></div>
+      </div>
+      <script src="app.js"></script>
+    </main>
+  </body>
+</html>
