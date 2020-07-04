@@ -1,0 +1,46 @@
+* {
+    background: black;
+}
+
+ul.timeline li {
+    position: relative;
+    height: 3em;
+    color: #888;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul.timeline li:before {
+    content: "";
+    display: inline-block;
+    height: 3em;
+    width: 1px;
+    background: #aaaa;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: -11px;
+    top: -0.4em;
+    z-index: -1;
+}
+
+ul.timeline:before {
+    content: "●";
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -1em;
+    top: 0.1em;
+    color: #aaa;
+}
+
+ul.timeline:after {
+    content: "●";
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -1em;
+    top: -1em;
+    color: #aaa;
+}
