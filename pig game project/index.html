@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <title>Pig Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="new-game">
+                <span class="fa fa-plus-circle new-game-span "></span>
+                <input type="button" value="NEW GAME" class="newGame">
+            </div>
+            <div class="left-div active-background">
+                <h1 class="playerText" id="player-0">PLAYER 1</h1>
+                <span class="fa fa-circle text-danger " id="player0-circle"></span>
+                <div class="point" id="point1">
+                    <p class="point-p text-danger display-3" id="score-0">0</p>
+                </div>
+                <div class="current bg-danger" id="">
+                    <p class="pt-2">Current</p>
+                    <p class="text-light current-point" id="current-0">0</p>
+                </div>
+            </div>
+            <div class="right-div ">
+                <h1 class="playerText" id="player-1">PLAYER 2</h1>
+                <span class="fa  text-danger" id="player1-circle"></span>
+                <div class="point" id="point2">
+                    <p class="point-p text-danger display-3" id="score-1">0</p>
+                </div>
+                <div class="current bg-danger" id="">
+                    <p class="pt-2">Current</p>
+                    <p class="text-light current-point" id="current-1">0</p>
+                </div>
+            </div>
+            <div class="roll-dice">
+                <button class=" " id="dice" > <span class="fa fa-refresh "></span>ROLL DICE</button>
+                <button class="" id="hold"> <span class="fa fa-download"></span>HOLD</button>
+            </div>
+            <img src="img/dice-1.png" class="dice-image" alt="" srcset="">
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
