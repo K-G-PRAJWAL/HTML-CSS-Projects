@@ -1,0 +1,96 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background:tan !important;
+}
+.row{
+    width: 80%;
+    height: 450px;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 100px !important;
+   
+}
+.left-div{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.right-div{
+    width: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+}
+.active-background{
+    background-color:#e9ecef;
+}
+.new-game{
+    position: absolute;
+     margin: 20px 0 0 44%; /* top right bottom left  */
+     
+}
+.new-game-span{
+    position: absolute;
+    font-size: 23px !important;
+    margin-left:-20px !important;
+    margin-top: 7px !important;
+    
+}
+.new-game input{
+    font-size: 24px;
+    word-spacing: -7px;
+    background: transparent;
+    border: none;
+    
+}
+.roll-dice{
+    position: absolute;
+    margin: 36% 0 0 40%;
+    font-size: 23px;
+}
+#dice ,#hold{
+    display: block;
+    margin-bottom: 23px;
+    background: transparent;
+    border: none;
+    outline: none;  
+}
+#hold:hover{
+   
+    margin-top: 2px !important;
+    /* transition: all 1s ease; */
+    float: left;
+    
+}
+#hold{
+    margin-left: 31px;
+}
+.reverse{
+  transform : rotate(180deg) !important;
+  transition : transform 1s ease !important;
+}
+.playerText{
+    margin: 80px 0 0 110px;
+}
+.fa-circle{
+    position: absolute;
+    margin:-33px 0 0 318px;
+    /* display: none !important;  */
+}
+.point{
+    margin: 0px 0 0 173px;
+}
+.current{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin: 116px 0 0 150px;
+}
+.current-point{
+    font-size: 35px;
+    margin-top: -20px;
+}
+.dice-image{
+    position: absolute;
+    width: 90px;
+    margin: 166px 0 0 390px;
+}
