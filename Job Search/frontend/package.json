@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "npm-upgrade": "^2.0.4",
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   },
   "devDependencies": {
     "sass": "^1.26.7"
