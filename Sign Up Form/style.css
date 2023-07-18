@@ -202,11 +202,11 @@
  
 .x-btn {
     position: absolute;
-    bottom: -6%;
+    top: 3%;
     right: 1%;
     font-size: 23px;
     font-weight: bold;
-    color: #262626;
+    color: white;
     cursor: pointer;
 }
 
